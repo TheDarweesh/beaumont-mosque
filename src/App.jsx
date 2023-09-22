@@ -3,18 +3,13 @@ import { Route, Routes } from "react-router-dom"
 import { Home } from "./pages/Home"
 import { Contact } from "./pages/Contact"
 import { About } from "./pages/About"
-
+import Navbar from "./components/Navbar.jsx"; 
+import "./styles.css"
 
 export default function App(){
   return (
     <>
-    <nav>
-      <ul>
-        <li>1</li>
-        <li>2</li>
-        <li>3</li>
-      </ul>
-    </nav>
+  <Navbar />
   <Routes>
     <Route path="/" element={<Home />} />
     <Route path="/contact" element={<Contact />} />
