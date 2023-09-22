@@ -1,13 +1,13 @@
 export function Home(){
   return(
   <>
-    <img src="src\assets\images\ICBsmall_logo.png"/> 
     <body>
     <main>
     <h1>Islamic Center of Beaumont</h1>
+    <img src="src\assets\images\ICBsmall_logo.png"/> 
 
     <p>
-      I'm baby kale chips affogato ennui lumbersexual, williamsburg paleo quinoa
+      I'm baby kale chips affogato ennui, williamsburg paleo quinoa
       iceland normcore tumeric. Kitsch coloring book retro, seitan schlitz
       tattooed biodiesel vexillologist neutra. Synth mumblecore deep v, umami
       selfies normcore gluten-free snackwave. Seitan ramps drinking vinegar
@@ -103,8 +103,6 @@ export function Home(){
       street art normcore, edison bulb farm-to-table pour-over taxidermy
       brooklyn.
     </p>
-
-
     </main>
     </body>
   </> 
