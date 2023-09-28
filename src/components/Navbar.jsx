@@ -1,30 +1,43 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 function Navbar() {
     return (
         <>
             <div className="navbar">
-                <div className="navbar-nav">
                     <div className="logo">
-                        <img src="src\assets\images\ICBsmall_logo.png" style={{ width: '45px', height: '40px' }} alt="ICB Logo" />
+                        <img
+                            src="src\assets\images\ICBsmall_logo.png"
+                            style={{ width: '45px', height: '40px' }}
+                            alt="ICB Logo"
+                        />
                     </div>
                     <div className="nav-item">
-                        <span className="link-text">Home</span>
+                        <NavLink to="/" exact activeClassName="active" className="link-text">
+                            Home
+                        </NavLink>
                     </div>
                     <div className="nav-item">
-                        <span className="link-text">Programs</span>
+                        <NavLink to="/programs" activeClassName="active" className="link-text">
+                            Programs
+                        </NavLink>
                     </div>
                     <div className="nav-item">
-                        <span className="link-text">Events</span>
+                        <NavLink to="/events" activeClassName="active" className="link-text">
+                            Events
+                        </NavLink>
                     </div>
                     <div className="nav-item">
-                        <span className="link-text">Contact</span>
+                        <NavLink to="/contact" activeClassName="active" className="link-text">
+                            Contact
+                        </NavLink>
                     </div>
                     <div className="nav-item">
-                        <span className="link-text">About Us</span>
+                        <NavLink to="/about" activeClassName="active" className="link-text">
+                            About Us
+                        </NavLink>
                     </div>
                 </div>
-            </div>
         </>
     );
 }

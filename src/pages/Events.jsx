@@ -1,8 +1,7 @@
-
-function Events() {
-  return (
-    <div>Events</div>
+export function Events() {
+  return(
+  <>
+    <h1>Events</h1>
+  </> 
   )
 }
-
-export default Events
