@@ -1,0 +1,15 @@
+.totalBox{
+
+    display: flex;
+    background-color: white;
+    padding: 2rem;
+
+}
+
+.box{
+
+    padding: 1rem;
+    background-color: red;
+
+
+}
