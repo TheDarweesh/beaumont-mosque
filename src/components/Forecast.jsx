@@ -8,6 +8,10 @@ function Forecast() {
     <div className="totalBox">
       <div className='box'>
         Detail 1
+      <div className="name">Name</div>
+      <div className="location">Location</div>
+      <div className="time">Time</div>
+      
       </div>
       <div className='box'>
         Detail 2
